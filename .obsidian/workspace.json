@@ -6,6 +6,7 @@
       {
         "id": "30f9174a83df41b0",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "8ce21272eeaecdda",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线性代数高级课程-矩阵理论与应用/第0章 预备知识.md",
+                "file": "线性代数高级课程-矩阵理论与应用/0 Preliminaries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第0章 预备知识"
+              "title": "0 Preliminaries"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "5da7a78a21e025e1",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "408056fef78216c4",
@@ -194,7 +196,9 @@
   },
   "active": "408056fef78216c4",
   "lastOpenFiles": [
-    "线性代数高级课程-矩阵理论与应用/第0章 预备知识.md",
+    "线性代数高级课程-矩阵理论与应用/0 Preliminaries.md",
+    "Pasted image 20250325210305.png",
+    "Pasted image 20250325204720.png",
     "线性代数高级课程-矩阵理论与应用",
     "欢迎.md"
   ]
