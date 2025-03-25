@@ -6,7 +6,7 @@
       {
         "id": "30f9174a83df41b0",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 55.01043841336117,
         "children": [
           {
             "id": "8ce21272eeaecdda",
@@ -27,7 +27,7 @@
       {
         "id": "5da7a78a21e025e1",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 44.989561586638835,
         "children": [
           {
             "id": "408056fef78216c4",
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "408056fef78216c4",
+  "active": "8ce21272eeaecdda",
   "lastOpenFiles": [
     "线性代数高级课程-矩阵理论与应用/0 Preliminaries.md",
     "Pasted image 20250325210305.png",

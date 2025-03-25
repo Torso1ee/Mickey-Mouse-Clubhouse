@@ -63,3 +63,76 @@ $$
  & (\mathrm{f})(c+d)A=cA+dA.
 \end{aligned}
 $$
+
+### Multiplication
+
+If $A=\begin{bmatrix}a_{ij}\end{bmatrix}\in\boldsymbol{M}_{m\times r}$, and $B=\begin{bmatrix}b_{ij}\end{bmatrix}\in\boldsymbol{M}_{r\times n}$,, then the $(i, j)$ entry of the product $AB=\begin{bmatrix}c_{ij}\end{bmatrix}\in M_{m\times n}$ is
+
+如果$A=\begin{bmatrix}a_{ij}\end{bmatrix}\in\boldsymbol{M}_{m\times r}$,而$B=\begin{bmatrix}b_{ij}\end{bmatrix}\in\boldsymbol{M}_{r\times n}$,那么乘积$AB=\begin{bmatrix}c_{ij}\end{bmatrix}\in M_{m\times n}$位于$(i,j)$处的元素是
+$$
+c_{ij}=\sum_{k=1}^ra_{ik}b_{kj},
+$$
+then
+
+又$$AB=
+\begin{bmatrix}
+A\boldsymbol{b}_1 & A\boldsymbol{b}_2 & \cdots A\boldsymbol{b}_n
+\end{bmatrix}.$$
+$A,B\in M_n$ commute if $AB=BA$.
+
+如果$AB=BA$，$A,B\in M_n$,可交换(commute).
+$$
+\begin{aligned}
+ & (a)A(BC)=(AB)C. \\
+ & (\mathrm{b})A(B+C)=AB+AC. \\
+ & (c)(A+B)C=AC+BC. \\
+ & (d)(cA)B=c(AB)=A(cB).
+\end{aligned}
+$$
+### Identity Matrices
+
+The matrix
+
+矩阵
+$$I_n=
+\begin{bmatrix}
+1 & 0 & 0 & \cdots & 0 \\
+0 & 1 & 0 & \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & & \vdots \\
+0 & 0 & 0 & \cdots & 1
+\end{bmatrix}\in\boldsymbol{M}_n$$
+is the n × n identity matrix. That is, $I_n=\left[\delta_{ij}\right]$, in which the Kronecker delta is
+
+是$n\times n$单位阵(identity matrix).也就是说$I_n=\left[\delta_{ij}\right]$，上下文已知记为$I$，其中Kronecker符号(Kroneckerdelta)是
+$$\delta_{ij}=
+\begin{cases}
+1 & \text{if }i=j \\
+0 & \text{if }i\neq j & & 
+\end{cases}$$
+
+### Triangular Matrices
+
+Let $A=\begin{bmatrix}a_{ij}\end{bmatrix}\in\boldsymbol{M}_{n}$.
+
+设 $A=\begin{bmatrix}a_{ij}\end{bmatrix}\in\boldsymbol{M}_{n}$,
+
+A is upper triangular if $a_{ij}=0$ whenever $i>j$;
+
+A是上三角的(upper triangular),如果对$i>j$有$a_{ij}=0$;
+
+lower triangular if $a_{ij}=0$ whenever $i<j$; 
+
+A是下三角的(lower triangular),如果对$i<j$有$a_{ij}=0$;
+
+strictly upper triangular if $a_{ij}=0$0 whenever $i≥j$;
+
+A为严格上三角的(strictly upper triangular),如果对$i≥j$有$a_{ij}=0$;
+
+strictly lower triangular if $a_{ij}=0$ whenever $i\leq j$
+
+A为严格下三角的(strictly lower triangular),如果对$i\leq j$有$a_{ij}=0$.
+
+A is triangular if it is either upper triangular or lower triangular.
+
+A是三角的(triangular),如果它既是上三角的,又是下三角的.
